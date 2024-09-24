@@ -30,7 +30,7 @@ var tourismPlaceList = [
     openDays: 'Buka Setiap Hari',
     openTime: '06.00 - 21.00',
     ticketPrice: 'Rp 5000',
-    imageAsset: 'images/alun-indramayu.jpg',
+    imageAsset: 'images/wisata/alun-indramayu.jpg',
     imageUrls: [
       'https://th.bing.com/th/id/OIP.stuNNmYA935e1By_Ok1iKwHaEK?w=271&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7',
       'https://th.bing.com/th/id/OIP.Fx0487r9i8ycorb9pf3YBwHaEL?w=261&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7',
@@ -45,7 +45,7 @@ var tourismPlaceList = [
     openDays: 'Buka Setiap Hari',
     openTime: '24 Jam',
     ticketPrice: 'Rp. 450.000/orang',
-    imageAsset: 'images/pulau-biawak.jpg',
+    imageAsset: 'images/wisata/pulau-biawak.jpg',
     imageUrls: [
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF4dS4PWgX_4z213wwwxExPaWlRVR7vJXbIw&s',
       'https://th.bing.com/th/id/OIP.oLo3CHUmUegNVWx6dZ08CAHaEe?w=260&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7',
@@ -60,7 +60,7 @@ var tourismPlaceList = [
     openDays: 'Buka Setiap Hari',
     openTime: '08.00 - 17.00',
     ticketPrice: 'Rp. 10.000/orang',
-    imageAsset: 'images/hutan-mangrove.jpg',
+    imageAsset: 'images/wisata/hutan-mangrove.jpg',
     imageUrls: [
       'https://th.bing.com/th/id/OIP.gRyqiAak8fBoKBpJGp1OWQAAAA?w=264&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7',
       'https://th.bing.com/th/id/OIP._tAQzvDYYXAgUNPk6SsDTgHaEK?w=296&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7',
@@ -75,7 +75,7 @@ var tourismPlaceList = [
     openDays: 'Buka Setiap Hari',
     openTime: '08:00 - 17:00',
     ticketPrice: 'Rp 25.000/orang',
-    imageAsset: 'images/agung-fantasi.jpeg',
+    imageAsset: 'images/wisata/agung-fantasi.jpeg',
     imageUrls: [
       'https://th.bing.com/th/id/OIP.KxsRSbcJH-GQagQSuUhMDwHaEc?w=275&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7',
       'https://th.bing.com/th/id/OIP.v0Y1uU9KdLPucxcoIV2XOwHaEK?w=272&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7',
@@ -90,7 +90,7 @@ var tourismPlaceList = [
     openDays: 'Buka Setiap Hari',
     openTime: '08.30 - 16.30',
     ticketPrice: 'Rp. 25.000/orang',
-    imageAsset: 'images/firdaus.jpg',
+    imageAsset: 'images/wisata/firdaus.jpg',
     imageUrls: [
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQruPAnkLow1zbt-kyGr58aH11NDsFIFVsySw&s',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI_PjiaxQnVGQduyeZzJZJH3BGpq1siO_jYw&s',
@@ -105,7 +105,7 @@ var tourismPlaceList = [
     openDays: 'Buka Setiap Hari',
     openTime: '06.00 - 18.00',
     ticketPrice: 'Rp 5.000/orang',
-    imageAsset: 'images/cemara.jpg',
+    imageAsset: 'images/wisata/cemara.jpg',
     imageUrls: [
       'https://lh3.googleusercontent.com/proxy/J_0eaMfU3HgQfr7xdtXIECAbUzWxq9e0ZDhZLpgDsKchVFioQJxdr9EN4SWGM9LtUVMiSg6O8i1Vb7emKrFcecKNpV45V4iXnPuu9ehXVOowhWuFp3lTJ5Lrd4vc',
       'https://ik.imagekit.io/tvlk/blog/2024/05/shutterstock_1918556966.jpg?tr=dpr-2,w-675',
@@ -120,7 +120,7 @@ var tourismPlaceList = [
     openDays: 'Buka Setiap Hari',
     openTime: '24 Jam',
     ticketPrice: 'Gratis',
-    imageAsset: 'images/islamic-center.jpg',
+    imageAsset: 'images/wisata/islamic-center.jpg',
     imageUrls: [
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf42wcQ8KV6C4NWjIJNmd5k_zu_yMFYrhXEQ&s',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt8aS3ODaiVkjksA59hHjndq55QZOkKMvaRw&s',
@@ -135,7 +135,7 @@ var tourismPlaceList = [
     openDays: 'Buka Setiap Hari',
     openTime: '06.00 - 18.00',
     ticketPrice: 'Rp 10.000/orang',
-    imageAsset: 'images/karangsong.jpg',
+    imageAsset: 'images/wisata/karangsong.jpg',
     imageUrls: [
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSc9ZW5LPqyMjFhkzwHPlZgWKyxzmH8tXZmg&s',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqFrwmi6ZpelUEdg41CznnVd9CTpi6rZd-QA&s',

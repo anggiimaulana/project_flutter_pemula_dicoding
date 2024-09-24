@@ -15,15 +15,16 @@ class WisataScreen extends StatelessWidget {
           ),
           body: LayoutBuilder(
             builder: (BuildContext context, BoxConstraints constraints) {
-              if (constraints.maxWidth <= 500) {
-                return const TourismPlaceList();
-              } else if (constraints.maxWidth > 500 && constraints.maxWidth <=599) {
+              if (constraints.maxWidth > 300 && constraints.maxWidth <= 599) {
                 return const TourismPlaceGrid(gridCount: 2);
-              } else if (constraints.maxWidth >= 600 && constraints.maxWidth <=999) {
+              } else if (constraints.maxWidth >= 600 &&
+                  constraints.maxWidth <= 999) {
                 return const TourismPlaceGrid(gridCount: 3);
-              } else if (constraints.maxWidth >= 1000 && constraints.maxWidth <= 1500) {
+              } else if (constraints.maxWidth >= 1000 &&
+                  constraints.maxWidth <= 1500) {
                 return const TourismPlaceGrid(gridCount: 4);
-              } else if (constraints.maxWidth > 1500 && constraints.maxWidth <= 1799) {
+              } else if (constraints.maxWidth > 1500 &&
+                  constraints.maxWidth <= 1799) {
                 return const TourismPlaceGrid(gridCount: 5);
               } else {
                 return const TourismPlaceGrid(gridCount: 6);

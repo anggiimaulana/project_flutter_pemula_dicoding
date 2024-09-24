@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:proyek_akhir_flutter_pemula_dicoding/view/home.dart';
+import 'package:proyek_akhir_flutter_pemula_dicoding/view/login.dart';
 
 void main() => runApp(const MyApp());
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'MyIndramayu',
       theme: ThemeData(),
-      home: const MainScreen(),
+      home: const LoginScreen(),
     );
   }
 }
