@@ -18,14 +18,11 @@ class WisataScreen extends StatelessWidget {
               if (constraints.maxWidth > 300 && constraints.maxWidth <= 599) {
                 return const TourismPlaceGrid(gridCount: 2);
               } else if (constraints.maxWidth >= 600 &&
-                  constraints.maxWidth <= 999) {
+                  constraints.maxWidth <= 1400) {
                 return const TourismPlaceGrid(gridCount: 3);
-              } else if (constraints.maxWidth >= 1000 &&
-                  constraints.maxWidth <= 1500) {
+              } else if (constraints.maxWidth >= 1401 &&
+                  constraints.maxWidth <= 1800) {
                 return const TourismPlaceGrid(gridCount: 4);
-              } else if (constraints.maxWidth > 1500 &&
-                  constraints.maxWidth <= 1799) {
-                return const TourismPlaceGrid(gridCount: 5);
               } else {
                 return const TourismPlaceGrid(gridCount: 6);
               }
@@ -59,7 +56,8 @@ class TourismPlaceGrid extends StatelessWidget {
             },
             child: Card(
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
+                crossAxisAlignment:
+                    CrossAxisAlignment.center, // Ganti stretch dengan center
                 children: [
                   Expanded(
                     child: Image.asset(
@@ -72,18 +70,20 @@ class TourismPlaceGrid extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 8.0),
                     child: Text(
                       place.name,
+                      textAlign: TextAlign
+                          .center, // Tambahkan ini untuk mengatur teks agar berada di tengah
                       style: const TextStyle(
                         fontSize: 16.0,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 8.0, bottom: 8.0),
-                    child: Text(
-                      place.location,
-                    ),
-                  ),
+                  // Padding(
+                  //   padding: const EdgeInsets.only(left: 8.0, bottom: 8.0),
+                  //   child: Text(
+                  //     place.location,
+                  //   ),
+                  // ),
                 ],
               ),
             ),
@@ -123,16 +123,34 @@ class TourismPlaceList extends StatelessWidget {
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          Text(
-                            place.name,
-                            style: const TextStyle(fontSize: 16.0),
+                        crossAxisAlignment: CrossAxisAlignment
+                            .center, // Ganti stretch dengan center
+                        children: [
+                          Expanded(
+                            child: Image.asset(
+                              place.imageAsset,
+                              fit: BoxFit.cover,
+                            ),
                           ),
-                          const SizedBox(
-                            height: 10,
+                          const SizedBox(height: 8),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 8.0),
+                            child: Text(
+                              place.name,
+                              textAlign: TextAlign
+                                  .center, // Tambahkan ini untuk mengatur teks agar berada di tengah
+                              style: const TextStyle(
+                                fontSize: 16.0,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                           ),
-                          Text(place.location),
+                          // Padding(
+                          //   padding: const EdgeInsets.only(left: 8.0, bottom: 8.0),
+                          //   child: Text(
+                          //     place.location,
+                          //   ),
+                          // ),
                         ],
                       ),
                     ),

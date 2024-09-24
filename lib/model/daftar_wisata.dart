@@ -1,4 +1,3 @@
-
 class TourismPlace {
   String name;
   String location;
@@ -29,7 +28,7 @@ var tourismPlaceList = [
         'Alun-Alun Indramayu adalah ruang terbuka hijau yang menjadi pusat aktivitas masyarakat setempat. Alun-alun ini sering digunakan untuk berbagai acara, seperti upacara, festival, dan pasar malam. Monumen Bambu Runcing yang ikonik berdiri di tengah alun-alun, memperingati perjuangan rakyat Indramayu melawan penjajah.',
     openDays: 'Buka Setiap Hari',
     openTime: '06.00 - 21.00',
-    ticketPrice: 'Rp 5000',
+    ticketPrice: 'Gratis',
     imageAsset: 'images/wisata/alun-indramayu.jpg',
     imageUrls: [
       'https://th.bing.com/th/id/OIP.stuNNmYA935e1By_Ok1iKwHaEK?w=271&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7',
